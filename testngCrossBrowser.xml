@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+
+  <test thread-count="2" parallel="tests" name="TestChrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.crm.comcast.orgTest.CreateOrgaIndustryTest"/>
+      <class name="com.crm.comcast.orgTest.CreateOrgIndustryTypeTest"/>
+      <class name="com.crm.comcast.contacttest.CreateContactWithOrgTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" parallel="tests" name="TestChrome1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.crm.comcast.orgTest.CreateOrgaIndustryTest"/>
+      <class name="com.crm.comcast.orgTest.CreateOrgIndustryTypeTest"/>
+      <class name="com.crm.comcast.contacttest.CreateContactWithOrgTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
