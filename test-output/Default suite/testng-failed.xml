@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pratice.BookTicket">
+      <class name="com.crm.comcast.contacttest.CreateContactWithOrgTest">
         <methods>
-          <include name="bookTicketTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="newww"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAc"/>
         </methods>
-      </class> <!-- pratice.BookTicket -->
+      </class> <!-- com.crm.comcast.contacttest.CreateContactWithOrgTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
