@@ -92,11 +92,11 @@ public class BaseClass {
 				lp.loginApp(fLib.getPropertyKeyValue("username"),fLib.getPropertyKeyValue("password"));
 
 			}
-	        @AfterClass
+	     /*   @AfterClass
 	         public void configAc()
 	          {
 		       driver.close();
-	           }
+	           }*/
 	        
 	        @AfterMethod
 	        public void configAM()

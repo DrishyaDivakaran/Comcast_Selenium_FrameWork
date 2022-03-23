@@ -12,12 +12,6 @@ import generic.BaseClass;
 
 public class CreateContactWithOrgTest extends BaseClass {
 
-	       
-	        
-	        	
-	        	
-	        	
-	        	
 	        	@Test
 	        	public void endToEnd() throws Throwable
 	        
