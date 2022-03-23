@@ -70,7 +70,7 @@ public class WebdriverUtility {
 	   /**
 	    * this methods enables user to handle dropdown using visible text
 	    * @param element
-	    * @param option
+	    * @param option 
 	    */
 	   public void drop(WebElement element, String option)
 	   {
@@ -157,12 +157,7 @@ public class WebdriverUtility {
 	           }
 		   }
 	   }
-	   
-	   
-	   
-	   
-	   
-	   
+	    
 	   
 	   /**
 	    * Accept alert 
@@ -218,11 +213,6 @@ public class WebdriverUtility {
 	    	File dest=new File("./screenshot/"+screenshotName+".PNG");
 	    	Files.copy(src, dest);
 	    }
-	    
-	    
-	    
-	    
-	    
 	    
 	    /**
 	     * pass enter Key appertain in to Browser

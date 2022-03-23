@@ -31,6 +31,15 @@ public class Home {
 	private WebElement emailLink;
 	
 	
+	@FindBy (linkText="More")
+	private WebElement MoreBtn;
+	
+	
+	public WebElement getMoreBtn() {
+		return MoreBtn;
+	}
+
+
 	public WebDriver getDriver() {
 		return driver;
 	}

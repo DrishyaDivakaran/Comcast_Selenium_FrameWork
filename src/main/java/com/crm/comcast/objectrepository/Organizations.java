@@ -107,10 +107,4 @@ public class Organizations {
 		getNameOrg().sendKeys(orgName);
 	}
 	
-	
-	
-
-	
-	
-
 }
